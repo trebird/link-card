@@ -54,6 +54,7 @@ div .btn {
   align-items: center;
   padding: .4em .75em .5em;
   margin: 1rem;
+  margin-top: 0;
   border: 3px #785439;
   border-radius: 8px;
   color: #f0eee8;
