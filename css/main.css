@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: Dosis, sans-serif;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+.link-card {
+  border: solid 3px #9a816d;
+  border-radius: 3px;
+  color: #785439;
+  background-color: #dcd4cd;
+}
+
+a {
+  text-align: center;
+  padding: .4em .75em .5em;
+  display: inline-block;
+  border: solid 2px #785439;
+  border-radius: 8px;
+  color: #f0eee8;
+  background-color: #512200;
+  text-decoration: none;
+  font-family: Dosis, sans-serif;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  border-color: #512200;
+}
