@@ -13,12 +13,14 @@ body {
   line-height: 1.5;
 }
 
-h1 {
+.link-card h2 {
+  margin: 1rem;
   font-family: Dosis, sans-serif;
 }
 
 p {
   font-family: Georgia, serif;
+  margin: 1rem;
 }
 
 .link-card {
@@ -30,9 +32,22 @@ p {
   text-decoration: none;
 }
 
+.link-card dl {
+  margin: 1rem;
+}
+
+.link-card dt {
+  float: left;
+}
+
+.link-card dd {
+  text-align: right;
+  font-style: italic;
+}
+
 .btn {
   padding: .4em .75em .5em;
-  margin: 1em;
+  margin: 1rem;
   display: inline-block;
   border: 2px #785439;
   border-radius: 8px;
