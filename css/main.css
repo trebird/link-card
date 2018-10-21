@@ -22,20 +22,22 @@ p {
 }
 
 .link-card {
+  display: block;
   border: solid 3px #9a816d;
-  border-radius: 3px;
+  border-radius: 8px;
   color: #785439;
   background-color: #dcd4cd;
+  text-decoration: none;
 }
 
-a {
-  text-align: center;
+.btn {
   padding: .4em .75em .5em;
+  margin: 1em;
   display: inline-block;
-  border: solid 2px #785439;
+  border: 2px #785439;
   border-radius: 8px;
   color: #f0eee8;
-  background-color: #512200;
+  background-color: #785439;
   text-decoration: none;
   font-family: Dosis, sans-serif;
 }
@@ -43,4 +45,8 @@ a {
 .link-card:hover {
   background-color: #cabdb2;
   border-color: #512200;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
