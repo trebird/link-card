@@ -41,12 +41,15 @@ p {
 }
 
 .link-card dt {
+  display: inline-block;
   float: left;
+  width: 45%;
 }
 
 .link-card dd {
-  text-align: center;
+  display: inline-block;
   font-style: italic;
+  width: 45%;
 }
 
 div .btn {
